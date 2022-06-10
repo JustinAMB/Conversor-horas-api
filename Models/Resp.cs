@@ -10,5 +10,10 @@ namespace ConversorHoras.Models
         public int status { get; set; }
         public string msg { get; set; }
         public Object data { get; set; }
+
+
+        public Resp() {
+            this.status = 0;
+        }
     }
 }
